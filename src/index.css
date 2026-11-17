@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8F5EF;
+    color: #242321;
+    font-family: 'DM Sans', sans-serif;
+  }
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  }
+}
+
+/* Custom smooth scroll and scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A46D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #542C3A;
+}
+

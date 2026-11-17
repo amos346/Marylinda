@@ -1,0 +1,6 @@
+{
+  "name": "MARYLINDA - Author Portfolio & Ebook Showcase",
+  "description": "Stunning minimalist author portfolio and ebook showcase for American author Marylinda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
